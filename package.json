@@ -1,6 +1,6 @@
 {
   "name": "@pysche/validation",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "根据swagger文档的入参，自动进行参数验证",
   "main": "index.js",
   "scripts": {

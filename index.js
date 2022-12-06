@@ -1,4 +1,4 @@
-const log4js = require('@pg/log4js')
+const log4js = require('@pysche/log4js')
 const { decorator } = require('m-utility')
 const { isEmpty, pipe, invoker, identity } = require('ramda')
 const Joi =  require('@hapi/joi')
