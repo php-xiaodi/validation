@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
-    "@pg/dayjs": "^1.0.0",
-    "@pg/log4js": "^1.0.0",
+    "@pysche/dayjs": "^1.0.0",
+    "@pysche/log4js": "^1.0.0",
     "m-utility": "^0.0.2",
     "ramda": "^0.26.1"
   },
