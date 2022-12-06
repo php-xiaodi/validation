@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/Pysche_Lei/.nvm/versions/node/v16.18.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/Pysche_Lei/.nvm/versions/node/v16.18.0/bin:/usr/local/opt/mysql-client/bin:/Users/Pysche_Lei/bin:/usr/local/opt/node@12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND nexus.cn-x-cloud-pg.com.cn
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "@pg/validation",
+    "version": "1.0.8",
+    "description": "根据swagger文档的入参，自动进行参数验证",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@gitlab.cn-x-cloud-pg.com.cn:front-end-packages/validation.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@hapi/joi": "^17.1.1",
+      "@pg/dayjs": "^1.0.0",
+      "@pg/log4js": "^1.0.0",
+      "m-utility": "^0.0.2",
+      "ramda": "^0.26.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.11.6",
+      "@babel/preset-env": "^7.11.5",
+      "babel-eslint": "^10.1.0",
+      "babel-jest": "^25.1.0",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^14.1.0",
+      "eslint-config-sonar": "^0.0.7",
+      "eslint-loader": "^3.0.3",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-jest": "^23.8.2",
+      "eslint-plugin-security": "^1.4.0",
+      "eslint-plugin-standard": "^4.0.1",
+      "jest": "^26.6.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
